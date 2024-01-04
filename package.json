@@ -1,9 +1,12 @@
 {
-  "name": "04bgchanger",
+  "homepage": "https://github.com/swadesh0287/BG-Color-Changer.git",
+  "name": "bgchanger",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
